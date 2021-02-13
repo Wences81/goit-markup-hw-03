@@ -1,0 +1,261 @@
+:root {
+  --white-text: rgba(255,255,255,1);
+  --white-text-op: rgba(255, 255, 255, 0.6);
+
+
+  --black-text: rgba(33, 33, 33, 1);
+  --black-text-logo: rgba(0, 0, 0, 1);
+  --black-background: rgba(47, 48, 58, 1);
+
+
+  
+  --blue-text: rgba(33, 150, 243, 1);
+
+
+  --grey-text: rgba(117, 117, 117, 1);
+  --grey-background: rgba(245, 244, 250, 1);
+
+}
+
+p {
+  color: var(--grey-text); 
+  
+}
+
+ul {
+  list-style: none; 
+}
+
+body {
+  font-family: Roboto, sans-serif;
+
+}
+
+
+.title {
+  color: var(--black-text);
+}
+
+.title-h {
+
+  color: var(--black-text);
+
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+}
+
+/* Site nav */
+.nav-a,
+.nav-span {
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+nav .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  text-decoration: none;
+
+}
+
+.nav-a,
+.futer-a {
+  color: var(--blue-text);
+}
+
+.nav-span {
+  color: var(--black-text-logo);
+}
+
+.site-nav .link {
+  color: var(--black-text);
+}
+
+.site-nav .link:hover, 
+.site-nav .link:focus {
+  color: var(--blue-text);
+}
+
+.auth-nav .link {
+  color: var(--grey-text);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  text-decoration: none;
+
+}
+
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--blue-text);
+}
+
+/* Hero */
+
+.hero {
+  background-color: var(--black-background);
+}
+
+.hero .hero-title {
+  color: var(--white-text);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+}
+
+.button {
+  color: var(--white-text);
+  background-color: var(--blue-text);
+
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+.filtr-button {
+  color: var(--black-text);
+  background-color: var(--grey-background); 
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+
+}
+
+.filtr-button:hover,
+.filtr-button:focus {
+  color: var(--white-text);
+  background-color: var(--blue-text);
+}
+
+/* Advantages */
+
+.advantages .advantages-title {
+  color: var(--black-text);
+
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+
+.advantages-text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/* Team */
+
+.team-list .title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.team-list .team-text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+/* Cards */
+
+.title-cards {
+  color: var(--black-text);
+
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+}
+
+.text-cards {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+}
+
+/* Futer */
+
+.futer-span {
+  color: var(--white-text);
+
+}
+
+
+.futer-nav {
+  background-color: var(--black-background);
+}
+
+.futer-address {
+  color: var(--white-text);
+
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+
+}
+
+.futer-nav .link {
+  color: var(--white-text-op);
+
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+
+  text-decoration: none;
+}
+
+.futer-nav .link:hover,
+.futer-nav .link:focus {
+  color: var(--blue-text);
+}
+
+.futer-span {
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+
+
+}
+
+.futer-nav .futer-a {
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+  
+}
