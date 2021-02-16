@@ -75,12 +75,14 @@ header {
 .nav {
   justify-content: space-between;
   align-items: center;
+  padding-top: 24px;
+  padding-bottom: 25px;
   
 
 }
 
 .site-nav {
-  padding: 32px 0;
+  padding: 0;
   margin-left: 93px;
   margin-top: 0;
   margin-bottom: 0;
@@ -93,6 +95,8 @@ header {
 
 .auth-nav {
   margin-left: auto;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .auth-nav li:not(:last-child) {
@@ -168,11 +172,13 @@ nav .link {
 .hero {
   background-color: var(--black-background);
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero .hero-title {
   margin: 0;
-  padding-top: 200px;
+  padding-top: 0px;
   padding-bottom: 30px;
 
 
@@ -187,7 +193,7 @@ nav .link {
 
   padding: 10px 32px;
 
-  margin-bottom: 200px;
+  margin-bottom: 0px;
 
 
   color: var(--white-text);
@@ -211,6 +217,7 @@ nav .link {
   text-align: center;
 
   padding: 6px 22px;
+  border: none;
 
 }
 
@@ -276,6 +283,10 @@ nav .link {
 
 /* WORK */
 
+.work {
+  padding-bottom: 94px;
+}
+
 .title-h,
 .work-list {
   display: flex;
@@ -285,7 +296,7 @@ nav .link {
   justify-content: space-between;
   padding: 0;
   margin-top: 0 ;
-  margin-bottom: 94px;
+  margin-bottom: 0px;
 }
 
 .work-list .item:not(:last-child) {
@@ -310,25 +321,28 @@ nav .link {
 
 .team {
   background-color: var(--grey-background);
+  padding-bottom: 94px;
+  padding-top: 94px;
 }
 
 .title-team,
 .team-list {
   display: flex;
+  
 }
 
 .container .title-team {
   justify-content: center;
 
   margin-top: 0;
-  padding-top: 94px;
+  padding-top: 0px;
   margin-bottom: 50px;
 
   
 }
 
 .team-list {
-  padding-bottom: 94px;
+  padding-bottom: 0px;
   padding-left: 0;
   justify-content: space-between;
   margin-top: 0;
@@ -364,6 +378,11 @@ nav .link {
 
 /* Cards */
 
+.card-button {
+  padding: 94px 0;
+
+}
+
 .button-list,
 .card-set {
   display: flex;
@@ -379,6 +398,11 @@ nav .link {
   
 }
 
+.card-tumb {
+  width: 370px;
+  height: 294px;
+}
+
 .card-set .item-card {
 
   /* outline: 1px solid teal; */
@@ -391,10 +415,13 @@ nav .link {
 
 .card-content {
   padding: 20px 24px;
+  border: 1px solid rgba(238, 238, 238, 1) ;
+  border-top: 0;
+
 }
 
 .button-list {
-  margin-top: 94px;
+  margin-top: 0px;
   margin-bottom: 50px;
   justify-content: center;
   padding-left: 0;
@@ -405,11 +432,12 @@ nav .link {
   
 }
 
+
 .title-cards {
   color: var(--black-text);
 
   font-family: Roboto, sans-serif;
-  font-style: normal;
+  
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
@@ -417,16 +445,21 @@ nav .link {
 
 }
 
-.text-cards {
+h2 .text-cards {
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 1.9;
+  line-height: 1.88;
   letter-spacing: 0.03em;
 }
 
 /* Futer */
+
+.futer-nav {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 
 
 .futer-address {
@@ -435,7 +468,6 @@ nav .link {
 
 .futer-logo {
   
-  padding-top: 60px;
   padding-left: 15px;
 }
 
@@ -449,7 +481,7 @@ nav .link {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 15px;
-  padding-bottom: 60px;
+  
 }
 
 
