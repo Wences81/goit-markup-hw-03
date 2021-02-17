@@ -30,6 +30,13 @@ html {
   box-sizing: inherit;
 }
 
+h1,
+h2,
+p {
+  margin: 0;
+
+}
+
 p {
   color: var(--grey-text); 
   
@@ -230,7 +237,7 @@ nav .link {
 /* Advantages */
 
 .advantages {
-  padding-top: 140px;
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 
@@ -442,6 +449,7 @@ nav .link {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin-bottom: 4px;
 
 }
 
